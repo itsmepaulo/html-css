@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            font-family: helvetica,arial,sans-serif;
+            background-color: rgb(255, 255, 255);
+        }
+
+        header{
+            padding: 10px;
+            margin: 10px 20px;
+            background-color: rgb(1, 71, 66);
+
+        }
+
+        nav{
+            background-color: rgb(7, 119, 112);
+            padding: 3px;
+            width: 200px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.356);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            
+        }
+
+        main{
+            background-color: rgb(0, 38, 255);
+            margin: 10px 20px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        article{
+            background-color: rgb(117, 177, 247);
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(72, 157, 255);
+        }
+
+        footer{
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding: 4px;
+            margin: 10px 20px;
+
+        }
+
+        footer > p{
+            margin: 0;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Blnd</h1>
+        <nav>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, placeat rem veniam itaque laboriosam incidunt magni. Facilis incidunt labore quis ullam eius vero omnis mollitia cum maxime! Eligendi, officia voluptatum?</p>
+                <aside>artigo escrito por fulano</aside>
+
+
+            </article>
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <p>designed by Paulo</p>
+
+    </footer>
+
+    
+</body>
+</html>
