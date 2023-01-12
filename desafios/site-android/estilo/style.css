@@ -48,6 +48,11 @@ body{
     padding: 0 10px 0 10px;
 }
 
+nav{
+    text-align: center;
+    padding-top: 6px;
+}
+
 nav a{
     text-decoration: none;
     margin: 12px;
@@ -58,7 +63,8 @@ nav a{
     text-shadow: 2px 2px 2px black;
     position: relative;
     bottom: 2px;
-    padding: 5px;
+    padding: 3px;
+    
 }
 
 nav a:hover{
