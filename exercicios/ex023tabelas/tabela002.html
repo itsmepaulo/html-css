@@ -12,6 +12,7 @@
         }
 
         table{
+            position: relative;
             width: 500px;
             border-collapse: collapse;
         }
@@ -29,6 +30,14 @@
         thead, tfoot{
             background-color: grey;
             color: white;
+        }
+
+        thead > tr > th{
+
+            position: sticky;
+            top: -1px;
+            background-color: grey ;
+
         }
 
         tbody > tr:nth-child(2n){    /* Ele vai pular de dois em dois, Efeito Zebrado*/
