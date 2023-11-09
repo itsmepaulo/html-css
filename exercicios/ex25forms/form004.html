@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-mail</title>
+    <style>
+        fieldset{
+            width: 80px;
+        }
+    </style>
+</head>
+<body>
+        <h1>exemplo de form</h1>
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <fieldset>                                          <!--a tag fieldset agrupa as tags-->
+                <legend>Dados pessoais</legend>
+                <p>
+                    <label for="iemail">E-mail</label>
+                    <input type="email" id="iemail" autocomplete="email" required>
+                </p>
+                <p>
+                    <label for="itel">Telefone</label>
+                    <input type="tel" name="tel" id="itel" autocomplete="tel" required  pattern="^\(\d{2}){4,5}-\d{4-5}$">
+                </p>
+            </fieldset>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+
+
+        </form>
+</body>
+</html>
